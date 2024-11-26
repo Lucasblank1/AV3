@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+body{
+    background-image: url(fundofumaça.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+section.topo-do-site{
+    padding: 150px 4%;
+  
+
+}
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site .txt-topo-site h1{
+    color: white;
+    font-size: 38px;
+    line-height: 40px;
+    
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: #007bff;
+}
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0;
+}
+
+.btn-meu-curriculo button {
+    background-color: #007bff;
+    padding: 10px 40px;
+    font-size:18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50%;
+    cursor:pointer;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    
+}
+.btn-meu-curriculo button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-meu-curriculo button span:after{
+    content:'\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn-meu-curriculo button:hover span {
+    padding-right: 25px;
+}
+.btn-meu-curriculo button:hover span:after{
+    opacity: 1;
+    right: 0;    
+}
+
+/* SOBRE */
+
+section.sobre {
+    padding: 225px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre {
+    color: #fff;
+
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color: #007bff;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #007bff9d;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
