@@ -52,5 +52,25 @@
         </div>
     </section>
 </main>
+<script>
+document.querySelectorAll('.btn-social button').forEach(button => {
+    button.addEventListener('mouseenter', () => {
+        button.style.filter = 'brightness(2.0)';
+    });
+    button.addEventListener('mouseleave', () => {
+        button.style.filter = 'brightness(1)';
+    });
+});
+document.querySelectorAll('.btn-meu-curriculo button').forEach(button => {
+    button.addEventListener('mouseenter', () => {
+        button.style.filter = 'brightness(1.2)';
+    });
+    button.addEventListener('mouseleave', () => {
+        button.style.filter = 'brightness(1)';
+    });
+});
+
+
+</script>
 </body>
 </html>
